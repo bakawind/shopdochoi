@@ -16,6 +16,7 @@ body {
 .header {
     background-color: #0d1953;
     height: 45px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .menu {
@@ -102,5 +103,92 @@ body {
 
 .clear {
     clear: both;
+}
+
+.footer{
+	background: url("../images/footer.jpg") repeat scroll 0 0 transparent;
+	height: 220px;
+}
+.footer .footer_content{
+	margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+	height:220px;
+
+}
+
+.footer .footer_content .online_service{
+	float: left;
+	width: 470px;
+	height: 160px;
+}
+
+.footer .footer_content .online_service .unavailable{
+	width:200px;
+	height: 160px;
+	background:url(../images/service_image.png) 0px 0px;
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0 10px 0 30px;
+}
+
+.footer .footer_content .online_service .available{
+	width:200px;
+	height: 160px;
+	background-repeat: no-repeat;
+	background:url(../images/service_image.png) 200px 0px;
+	float: left;	margin: 0 30px 0 0s;
+}
+
+.footer .footer_content .contact{
+	float: left;
+	width: 470px;
+	height: 180px;
+}
+.footer .footer_content .space{
+	float: left;
+	width: 470px;
+	height: 80px;
+}
+
+.footer .footer_content .contact .info{
+	float: left;
+	width: 350px;
+	height: 40px;
+
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 10px 0 0 0;
+	color: #ffffff;
+	font-family: "verdana";
+}
+
+.footer .footer_content .contact .deskPhone{
+	float: left;
+	width: 58px;
+	height: 50px;
+	margin: 0 0 0 30px;
+	background-image: url(../images/contact_image.png); background-repeat: no-repeat; background-position: -34px 0 ;
+}
+
+.footer .footer_content .contact .mobile{
+	float: left;
+	width: 33px;
+	height: 50px;
+	margin: 0 15px 0 40px;
+
+	background-image: url(../images/contact_image.png); background-repeat: no-repeat; background-position: 0 0 ;
+}
+
+.footer .footer_content .slogan{
+	float: left;
+	width: 940px;
+	height: 40px;
+
+	text-align: center;
+	font-size: 22px;
+	font-family: "verdana";
+	font-weight: bold;
+	Color: #91c719;
 }
 
