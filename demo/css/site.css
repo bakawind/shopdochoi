@@ -1,0 +1,106 @@
+body {
+    background: url("../images/background.jpg") repeat scroll 0 0 transparent;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+/*
+@font-face {
+    font-family: "VNI-Bengus";
+    src: url("font/VNI-Bengus.ttf") format("truetype");
+}
+*/
+.header {
+    background-color: #0d1953;
+    height: 45px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    color: white;
+    /*font-family: "VNI-Bengus";*/
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    margin: 12px 70px 0px 0px;
+}
+
+.space{
+    height: 20px;
+}
+
+.wrapper .content{
+    margin: 10px 0 0 0;
+    height: 800px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.5);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.wrapper .content .banner{
+    margin: 0 20px 0 20px;
+}
+
+.container {
+    margin: 18px 0 0 0;
+}
+
+.container .search{
+    margin: 22px 0 0 0;
+    float: left;
+}
+
+.container .search img{
+    width: auto;
+    height: 30px;
+}
+
+.container .cart {
+    margin: 0 0 0 30px;
+    float: left;
+    width: 65%;
+}
+
+.container .cart img{
+    width: auto;
+    height: 55px;
+    float: left;
+}
+.container .cart p{
+    margin: 5px 0 0 78px;
+}
+
+.container .cart p#view_count{
+    color: red;
+    font-weight: bolder;
+}
+
+.container .cart p#cart_detail{
+    color: blue;
+    font-weight: bolder;
+}
+
+.clear {
+    clear: both;
+}
+

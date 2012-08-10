@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Shop Do Choi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="css/reset.css" rel="stylesheet">
+<link type="text/css" href="css/site.css" rel="stylesheet">
+<script type="text/javascript" src="js/sliderman.1.3.7.js"></script>
+<style>
+</style>
+</head>
+<body>
+    <div class = "header">
+        <div class='menu'>
+            <ul>
+                <li>
+                   Trang chủ
+                </li>
+                <li>
+                    Sản phẩm
+                </li>
+                <li>
+                    Giới thiệu
+                </li>
+                <li>
+                    Thanh Toán
+                </li>
+                <li>
+                    Liên hệ
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='wrapper'>
+        <div class='container'>
+            <div class='cart'>
+                <img src="images/cart.png"/>
+                <p id='view_count'>Lượt truy cập: 103</p>
+                <p id='cart_detail'>2 (click để xem giỏ hàng)</p>
+            </div>
+            <div class='search'>
+                <input type='textfield'/>
+                <img src='images/search.png'/>
+            </div>
+        </div>
+        <br class='clear'/>
+        <div class='content'>
+            <div class='space'></div>
+            <div class='banner'>
+				<div id="SliderName_2" class="SliderName_2">
+					<img src="images/banners/banner1.jpg" width="900" height="350" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+					<div class="SliderName_2Description">Fist banner</div>
+					<img src="images/banners/banner2.jpg" width="900" height="350" alt="Demo2 second" title="Demo2 second" />
+					<div class="SliderName_2Description">Second banner</div>
+					<img src="images/banners/banner3.jpg" width="900" height="350" alt="Demo2 third" title="Demo2 third" />
+					<div class="SliderName_2Description">Third banner</div>
+				</div>
+				<div class="c"></div>
+				<div id="SliderNameNavigation_2"></div>
+				<div class="c"></div>
+
+				<script type="text/javascript">
+					effectsDemo2 = 'rain,stairs,fade';
+					var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 900, height: 350, effects: effectsDemo2,
+						display: {
+							autoplay: 3000,
+							loading: {background: '#000000', opacity: 0.5, image: 'images/loading.gif'},
+							buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
+							description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
+							//navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/clear.gif" />'}
+						}
+					});
+				</script>
+            </div><!--close banner-->
+        </div><!--close content -->
+    </div><!--close wrapper-->
+</body>
+</html>
