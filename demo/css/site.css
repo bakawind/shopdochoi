@@ -45,7 +45,7 @@ body {
 
 .wrapper .content{
     margin: 10px 0 0 0;
-    height: 800px;
+    height: 1010px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
     /* Fallback for web browsers that doesn't support RGBa */
@@ -56,6 +56,62 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.wrapper .content .inner_content{
+    margin: 0 20px 0 20px;
+}
+
+#grid {
+    margin-left: -15px;
+}
+
+.col {
+    width: 16.6%;
+    float: left;
+}
+
+.section {
+    overflow-y: scroll;
+    margin-left: 15px;
+    height: 100px;
+    background: green;
+}
+ 
+.wrapper .content .inner_content .box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;         
+}
+
+.wrapper .content .inner_content .box .search_box{
+    float: left;    
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+    background-color: #64dd28;
+}
+
+.wrapper .content .inner_content .box .search_box h3{
+    color: #db0416;
+    font-size: 30px;    
+    font-family:'showcard gothic';
+    margin: 50px 0 0 0;
+}
+
+.wrapper .content .inner_content .box .search_box p{
+    margin: 20px 0 30px 0;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.wrapper .content .inner_content .box .product_box{
+    float: left;
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
 }
 
 .wrapper .content .banner{
@@ -106,6 +162,7 @@ body {
 }
 
 .footer{
+    margin-top:10px;
 	background: url("../images/footer.jpg") repeat scroll 0 0 transparent;
 	height: 220px;
 }
@@ -155,7 +212,6 @@ body {
 	float: left;
 	width: 350px;
 	height: 40px;
-
 	font-size: 24px;
 	font-weight: bolder;
 	margin: 10px 0 0 0;
@@ -176,7 +232,6 @@ body {
 	width: 33px;
 	height: 50px;
 	margin: 0 15px 0 40px;
-
 	background-image: url(../images/contact_image.png); background-repeat: no-repeat; background-position: 0 0 ;
 }
 
@@ -184,7 +239,6 @@ body {
 	float: left;
 	width: 940px;
 	height: 40px;
-
 	text-align: center;
 	font-size: 22px;
 	font-family: "verdana";
