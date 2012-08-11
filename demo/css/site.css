@@ -66,8 +66,17 @@ legend{
     font-weight: bolder;
 }
 
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: #9BCEDF;
+}
+
 .menu ul {
-    margin: 0;
+    margin: 0 0 0 80px;
 }
 
 .menu ul li {
@@ -444,6 +453,7 @@ legend{
 
 .contact_us img{
     float: left;
+    margin: 20px 0 0 90px;
 }
 
 .contact_us .contact_form{
