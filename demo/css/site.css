@@ -106,22 +106,7 @@ legend{
 
 .wrapper .content .inner_content{
     margin: 0 20px 0 20px;
-}
-
-#grid {
-    margin-left: -15px;
-}
-
-.col {
-    width: 16.6%;
-    float: left;
-}
-
-.section {
-    overflow-y: scroll;
-    margin-left: 15px;
-    height: 100px;
-    background: green;
+	padding-bottom: 20px;
 }
 
 .wrapper .content .inner_content .box{
@@ -228,6 +213,87 @@ legend{
     color: white;
     background: url(../images/add_to_cart.jpg);
 }
+.wrapper .content .inner_content .pagination{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 30px;
+	margin-top: 10px;
+	
+}
+
+.wrapper .content .inner_content .pagination a{
+	font-family: 'verdana';
+	font-size: 20px;
+	text-decoration: none; 	
+	font-weight: bold;
+	color: #0d1953;
+}
+.wrapper .content .inner_content .pagination a:hover { 
+	text-decoration: underline; 
+	font-weight: normal;
+}
+
+.wrapper .content .inner_content .product_detail{
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	background: rgba(255, 255, 255, 0.4);
+	width: 900px;
+	height: 600px;
+}
+.wrapper .content .inner_content .product_detail .detail, .pictures{	
+	float:left;
+	width: 450px;
+	height: 600px;	
+}
+.wrapper .content .inner_content .product_detail .detail table{
+	margin: 30px 20px 20px 50px;
+	float: left;
+	font-family: 'verdana';
+	font-size: 18px;
+	color:#0d1953;
+}
+.wrapper .content .inner_content .product_detail .detail td{
+	padding-top:15px;
+	padding-bottom: 15px;	
+}
+.wrapper .content .inner_content .product_detail .detail table .spec{	
+	color:#293982 ;
+	font-size: 16px;
+	width:150px;
+}
+.wrapper .content .inner_content .product_detail .detail table .price{	
+	color:red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.wrapper .content .inner_content .product_detail .detail table .break{	
+	height:20px;
+}
+.wrapper .content .inner_content .product_detail .detail h3{	
+	font-family: 'verdana';
+	font-size: 30px;	
+	font-weight: bold;
+}
+
+.wrapper .content .inner_content .product_detail .pictures{
+	background-color:#fff;	
+}
+
+/* thumbnail*/
+.wrapper .content .inner_content .product_detail .pictures .main{	
+	float:left;
+	background-color:#000;
+	width: 100%;
+	height:450px;
+}
+.wrapper .content .inner_content .product_detail .pictures .slide	{
+	float:left;
+	background-color:red;
+	width: 100%;
+	height:150px;
+}
+
 
 .wrapper .content .categories{
     height: 250px;
@@ -346,6 +412,7 @@ legend{
 	background-repeat: no-repeat;
 	float: left;
 	margin: 0 10px 0 30px;
+	
 }
 
 .footer .footer_content .online_service .available{
