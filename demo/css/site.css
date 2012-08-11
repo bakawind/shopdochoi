@@ -103,8 +103,8 @@ body {
 }
 
 .wrapper .content .inner_content .box .search_box p{
-    margin: 20px 0 0 0;
-    font-size: 30px;
+    margin: 0 0 0 0;
+    font-size: 20px;
     font-weight:bold;
     color: #8798a8;
 }
@@ -118,15 +118,23 @@ body {
     color: #8798a8;
 }
 
-.wrapper .content .inner_content .box .search_box table input .btn{    
+.wrapper .content .inner_content .box .search_box .right{    
+    float: right;   
+	margin: 0 0 0 0;
+}
+
+.wrapper .content .inner_content .box .search_box input.red {    
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-    font-weight:bold;
-    
+	margin-top: 10px;
+    margin-bottom: auto;
+    width: 150px;	
+    height: 30px;
+    font-size: 15px;    
+	font-family:'verdana';  
 }
+
+
 
 .wrapper .content .inner_content .box .product_box{
     float: left;
@@ -352,4 +360,6 @@ body {
 	font-weight: bold;
 	Color: #fff;
 }
+
+
 
