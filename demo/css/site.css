@@ -2,6 +2,15 @@ body {
     background: url("../images/background.jpg") repeat scroll 0 0 transparent;
 }
 
+select {
+    width: 150px;
+}
+
+h1 {
+    font-family: 'arial';
+    font-size: 25px;
+}
+
 .wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +54,7 @@ body {
 
 .wrapper .content{
     margin: 10px 0 0 0;
-    height: 1030px;
+    height: auto;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
@@ -77,17 +86,17 @@ body {
     height: 100px;
     background: green;
 }
- 
+
 .wrapper .content .inner_content .box{
     float: left;
     width: 300px;
     height: 300px;
-    text-align: center;         
-    
+    text-align: center;
+
 }
 
 .wrapper .content .inner_content .box .search_box{
-    float: left;    
+    float: left;
     width: 280px;
     height: 280px;
     margin: 10px 10px 10px 10px;
@@ -97,7 +106,7 @@ body {
 
 .wrapper .content .inner_content .box .search_box h3{
     color: #d21d23;
-    font-size: 30px;    
+    font-size: 30px;
     font-family:'showcard gothic';
     margin: 60px 0 10px 0;
 }
@@ -109,7 +118,7 @@ body {
     color: #8798a8;
 }
 
-.wrapper .content .inner_content .box .search_box table{    
+.wrapper .content .inner_content .box .search_box table{
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -118,20 +127,20 @@ body {
     color: #8798a8;
 }
 
-.wrapper .content .inner_content .box .search_box .right{    
-    float: right;   
+.wrapper .content .inner_content .box .search_box .right{
+    float: right;
 	margin: 0 0 0 0;
 }
 
-.wrapper .content .inner_content .box .search_box input.red {    
+.wrapper .content .inner_content .box .search_box input.red {
     margin-left: auto;
     margin-right: auto;
 	margin-top: 10px;
     margin-bottom: auto;
-    width: 150px;	
+    width: 150px;
     height: 30px;
-    font-size: 15px;    
-	font-family:'verdana';  
+    font-size: 15px;
+	font-family:'verdana';
 }
 
 
@@ -148,7 +157,7 @@ body {
     float: left;
     width: 280px;
     height: 42px;
-	
+
 }
 
 .wrapper .content .inner_content .box .product_box .info p{
@@ -160,7 +169,7 @@ body {
 .wrapper .content .inner_content .box .product_box img{
     float: left;
     width: 280px;
-    height: 210px;        
+    height: 210px;
 }
 
 .wrapper .content .inner_content .box .product_box .detail {
@@ -201,31 +210,30 @@ body {
 }
 
 .wrapper .content .categories .category #doll{
-    height: 230px;
+    height: 220px;
     background: url(../images/categories.png) no-repeat scroll 35px -325px;
 }
 .wrapper .content .categories .category #doll:hover{
-    height: 230px;
-    background: url(../images/categories.png) no-repeat scroll 28px -33px;
+    height: 220px;
+    background: url(../images/categories.png) no-repeat scroll 23px -71px;
 }
 
 .wrapper .content .categories .category #toys{
-    height: 230px;
-    background: url(../images/categories.png) no-repeat scroll 35px -325px;
+    height: 220px;
+    background: url(../images/categories.png) no-repeat scroll -438px -288px;
 }
 .wrapper .content .categories .category #toys:hover{
-    height: 230px;
-    background: url(../images/categories.png) no-repeat scroll 28px -33px;
+    height: 220px;
+    background: url(../images/categories.png) no-repeat scroll -438px -89px;
 }
 
 .wrapper .content .categories .category #robot{
-    height: 230px;
-    background: url(../images/categories.png) no-repeat scroll 35px -325px;
+    height: 220px;
+    background: url(../images/categories.png) no-repeat scroll -214px -305px;
 }
 .wrapper .content .categories .category #robot:hover{
-    height: 230px;
-    background: url(../images/categories.png) no-repeat scroll 28px -33px;
-
+    height: 220px;
+    background: url(../images/categories.png) no-repeat scroll -214px -81px;
 }
 
 .wrapper .content .banner{
@@ -234,7 +242,6 @@ body {
 }
 
 .container {
-    margin: 18px 0 0 0;
 }
 
 .container .search{
@@ -361,5 +368,24 @@ body {
 	Color: #fff;
 }
 
+.price_search{
+    margin: 0 0 0 20px;
+    /*border-radius: 8px 8px 8px 8px;*/
+    border-style: solid;
+    border-width: 2px;
+    height: auto;
+    width: 250px;
+    background-color: #9bcedf;
+    border-color: #65acc4;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
 
+.price_search table{
+    margin: 5px 5px 5px 10px;
+}
+
+.price_search table td{
+    min-width: 45px;
+}
 
