@@ -69,6 +69,7 @@ h1 {
 
 .wrapper .content .inner_content{
     margin: 0 20px 0 20px;
+	padding-bottom: 20px;
 }
 
 #grid {
@@ -191,6 +192,30 @@ h1 {
     color: white;
     background: url(../images/add_to_cart.jpg);
 }
+.wrapper .content .inner_content .pagination{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 30px;
+	margin-top: 10px;
+	
+}
+
+.wrapper .content .inner_content .pagination a{
+	font-family: 'verdana';
+	font-size: 20px;
+	text-decoration: none; 	
+	font-weight: bold;
+	color: #0d1953;
+}
+
+.wrapper .content .inner_content .pagination a:hover { 
+	text-decoration: underline; 
+	font-weight: normal;
+}
+
+
 
 .wrapper .content .categories{
     height: 250px;
@@ -309,6 +334,7 @@ h1 {
 	background-repeat: no-repeat;
 	float: left;
 	margin: 0 10px 0 30px;
+	
 }
 
 .footer .footer_content .online_service .available{
