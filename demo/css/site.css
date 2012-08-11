@@ -45,7 +45,7 @@ body {
 
 .wrapper .content{
     margin: 10px 0 0 0;
-    height: 800px;
+    height: 1030px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
@@ -55,6 +55,124 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+.wrapper .content .inner_content{
+    margin: 0 20px 0 20px;
+}
+
+#grid {
+    margin-left: -15px;
+}
+
+.col {
+    width: 16.6%;
+    float: left;
+}
+
+.section {
+    overflow-y: scroll;
+    margin-left: 15px;
+    height: 100px;
+    background: green;
+}
+ 
+.wrapper .content .inner_content .box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;         
+    
+}
+
+.wrapper .content .inner_content .box .search_box{
+    float: left;    
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .content .inner_content .box .search_box h3{
+    color: #d21d23;
+    font-size: 30px;    
+    font-family:'showcard gothic';
+    margin: 60px 0 10px 0;
+}
+
+.wrapper .content .inner_content .box .search_box p{
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    font-weight:bold;
+    color: #8798a8;
+}
+
+.wrapper .content .inner_content .box .search_box table{    
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: 30px;
+    font-weight:bold;
+    color: #8798a8;
+}
+
+.wrapper .content .inner_content .box .search_box table input .btn{    
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-weight:bold;
+    
+}
+
+.wrapper .content .inner_content .box .product_box{
+    float: left;
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .content .inner_content .box .product_box .info{
+    float: left;
+    width: 280px;
+    height: 42px;
+	
+}
+
+.wrapper .content .inner_content .box .product_box .info p{
+	margin-top: 5px;
+    font-size: 18px;
+	font-family:'vani'
+}
+
+.wrapper .content .inner_content .box .product_box img{
+    float: left;
+    width: 280px;
+    height: 210px;        
+}
+
+.wrapper .content .inner_content .box .product_box .detail {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: url(../images/detail.jpg);
+}
+.wrapper .content .inner_content .box .product_box .add_to_card {
+    float: left;
+    display: block;
+    width: 190px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background: url(../images/add_to_cart.jpg);
 }
 
 .wrapper .content .categories{
@@ -99,6 +217,7 @@ body {
 .wrapper .content .categories .category #robot:hover{
     height: 230px;
     background: url(../images/categories.png) no-repeat scroll 28px -33px;
+
 }
 
 .wrapper .content .banner{
@@ -150,6 +269,7 @@ body {
 }
 
 .footer{
+    margin-top:10px;
 	background: url("../images/footer.jpg") repeat scroll 0 0 transparent;
 	height: 220px;
 }
@@ -199,7 +319,6 @@ body {
 	float: left;
 	width: 350px;
 	height: 40px;
-
 	font-size: 24px;
 	font-weight: bolder;
 	margin: 10px 0 0 0;
@@ -220,7 +339,6 @@ body {
 	width: 33px;
 	height: 50px;
 	margin: 0 15px 0 40px;
-
 	background-image: url(../images/contact_image.png); background-repeat: no-repeat; background-position: 0 0 ;
 }
 
@@ -228,11 +346,10 @@ body {
 	float: left;
 	width: 940px;
 	height: 40px;
-
 	text-align: center;
 	font-size: 22px;
 	font-family: "verdana";
 	font-weight: bold;
-	Color: #91c719;
+	Color: #fff;
 }
 
