@@ -8,7 +8,30 @@ select {
 
 h1 {
     font-family: 'arial';
-    font-size: 25px;
+    font-size: 20px;
+    color: #0D1953;
+    font-weight: bolder;
+}
+
+fieldset{
+    border-style: solid;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 2px;
+    height: auto;
+    width: auto;
+    border-color: #65acc4;
+    padding: 10px 10px 10px 10px;
+}
+
+legend{
+    border-style: solid;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 2px;
+    background-color: #9bcedf;
+    border-color: #65acc4;
+    margin-left: 15px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 .wrapper {
@@ -267,11 +290,12 @@ h1 {
 }
 
 .container {
+    margin: 0 20px 0 20px;
 }
 
 .container .search{
     margin: 22px 0 0 0;
-    float: left;
+    float: right;
 }
 
 .container .search img{
@@ -280,7 +304,6 @@ h1 {
 }
 
 .container .cart {
-    margin: 0 0 0 30px;
     float: left;
     width: 65%;
 }
@@ -395,8 +418,8 @@ h1 {
 }
 
 .price_search{
-    margin: 0 0 0 20px;
-    /*border-radius: 8px 8px 8px 8px;*/
+    margin: 20 0 0 20px;
+    border-radius: 8px 8px 8px 8px;
     border-style: solid;
     border-width: 2px;
     height: auto;
@@ -405,6 +428,7 @@ h1 {
     border-color: #65acc4;
     text-align: center;
     padding: 10px 0 10px 0;
+    float: left;
 }
 
 .price_search table{
@@ -415,3 +439,14 @@ h1 {
     min-width: 45px;
 }
 
+.about_us_box {
+    float: left;
+    width: 590px;
+    margin-left: 50px;
+    color: blue;
+}
+
+.about_us {
+    background: #ffffff;
+    min-height: 600px;
+}
