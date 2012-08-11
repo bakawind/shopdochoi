@@ -11,10 +11,10 @@
 </style>
 <script type="text/javascript">
 			$(function() {
-				
+				/*
 				$('#carousel span').append('<img src="images/gui/carousel_glare.png" class="glare" />');
 				$('#thumbs a').append('<img src="images/gui/carousel_glare_small.png" class="glare" />');
-
+				*/
 				$('#carousel').carouFredSel({
 					responsive: true,
 					circular: false,
@@ -31,6 +31,7 @@
 
 				$('#thumbs').carouFredSel({
 					responsive: true,
+					circular: false,
 					auto: false,
 					prev: '#prev',
 					next: '#next',
@@ -56,41 +57,6 @@
 
 </head>
 <body>
-<!--- **************************slider**************************** -->
-							<div id="wrapper">
-			<div id="carousel-wrapper">
-				<img id="shadow" src="images/gui/carousel_shadow.png" />
-				<div id="carousel">
-					<span id="pixar"><img src="images/products/pixar.jpg" /></span>
-					<span id="bugs"><img src="images/products/bugs.jpg" /></span>
-					<span id="cars"><img src="images/products/cars.jpg" /></span>
-					<span id="incred"><img src="images/products/incred.jpg" /></span>
-					<span id="monsters"><img src="images/products/monsters.jpg" /></span>
-					<span id="nemo"><img src="images/products/nemo.jpg" /></span>
-					<span id="rat"><img src="images/products/rat.jpg" /></span>
-					<span id="toystory"><img src="images/products/toystory.jpg" /></span>
-					<span id="up"><img src="images/products/up.jpg" /></span>
-					<span id="walle"><img src="images/products/walle.jpg" /></span>
-				</div>
-			</div>
-			<div id="thumbs-wrapper">
-				<div id="thumbs">
-					<a href="#pixar" class="selected"><img src="images/products/small/pixar.jpg" /></a>
-					<a href="#bugs"><img src="images/products/small/bugs.jpg" /></a>
-					<a href="#cars"><img src="images/products/small/cars.jpg" /></a>
-					<a href="#incred"><img src="images/products/small/incred.jpg" /></a>
-					<a href="#monsters"><img src="images/products/small/monsters.jpg" /></a>
-					<a href="#nemo"><img src="images/products/small/nemo.jpg" /></a>
-					<a href="#rat"><img src="images/products/small/rat.jpg" /></a>
-					<a href="#toystory"><img src="images/products/small/toystory.jpg"  /></a>
-					<a href="#up"><img src="images/products/small/up.jpg" /></a>
-					<a href="#walle"><img src="images/products/small/walle.jpg" /></a>
-				</div>
-				<a id="prev" href="#"></a>
-				<a id="next" href="#"></a>
-			</div>
-		</div>
-					<!--- **************************slider**************************** -->
     <div class = "header">
         <div class='menu'>
             <ul>
@@ -181,6 +147,30 @@
 						<br class='clear' />
 					</div> <!--end detail-->
 					
+					<!--- **************************slider**************************** -->
+							<div id="wrapper">
+			<div id="carousel-wrapper">				
+				<div id="carousel">
+					<span id="bb4"><img src="images/products/bb4.png" /></span>
+					<span id="bb4_2"><img src="images/products/bb4_2.jpg" /></span>
+					<span id="bb4_3"><img src="images/products/bb4_3.jpg" /></span>					
+					<span id="walle"><img src="images/products/walle.jpg" /></span>
+				</div>
+			</div>
+			<div id="thumbs-wrapper">
+				<div id="thumbs">
+					<a href="#bb4" class="selected"><img src="images/products/small/bb4_1.jpg" /></a>
+					<a href="#bb4_2"><img src="images/products/small/bb4_2.jpg" /></a>
+					<a href="#bb4_3"><img src="images/products/small/bb4_3.jpg" /></a>					
+					<a href="#walle"><img src="images/products/small/walle.jpg" /></a>
+				</div>
+				<a id="prev" href="#"></a>
+				<a id="next" href="#"></a>
+			</div>
+		</div>
+					<!--- **************************slider**************************** -->
+
+					<!--
 					<div class='pictures'>
 					
 					
@@ -190,13 +180,14 @@
 						</div>
 						<br class='clear' />
 					</div>
+					-->
 				</div> <!-- end droduct details-->
 				<div class='space'></div>		
 				
                 <div class='box'>                    
                     <div class="product_box">
                         <a href="productdetail.html">
-                        <img alt="Image 01" src="images/products/product6.jpg">
+                        <img alt="Image 01" src="images/products/bb1.jpg">
                         </a>
                         <div class='info'><p>$100 Ssdafasfasdf</p></div>                        
                         <a class="detail" href="productdetail.html">Chi tiết</a>
@@ -206,7 +197,7 @@
                 <div class='box'>                    
                     <div class="product_box">
                         <a href="productdetail.html">
-                        <img alt="Image 01" src="images/products/product1.jpg">
+                        <img alt="Image 01" src="images/products/bb2.jpg">
                         </a>
                         <div class='info'><p>$100 Ssdafasfasdf</p></div>                        
                         <a class="detail" href="productdetail.html">Chi tiết</a>
@@ -216,7 +207,7 @@
                 <div class='box'>
                     <div class="product_box">
                         <a href="productdetail.html">
-                        <img alt="Image 01" src="images/products/product2.jpg">
+                        <img alt="Image 01" src="images/products/bb3.jpg">
                         </a>
                         <div class='info'><p>$100 Ssdafasfasdf</p></div>                        
                         <a class="detail" href="productdetail.html">Chi tiết</a>
@@ -226,7 +217,7 @@
                 <div class='box'>
                     <div class="product_box">
                         <a href="productdetail.html">
-                        <img alt="Image 01" src="images/products/product3.jpg">
+                        <img alt="Image 01" src="images/products/bb1.jpg">
                         </a>
                         <div class='info'><p>$100 Ssdafasfasdf</p></div>                        
                         <a class="detail" href="productdetail.html">Chi tiết</a>
