@@ -6,6 +6,11 @@ select {
     width: 150px;
 }
 
+textarea {
+    width: 235px;
+    height: 125px;
+}
+
 h1 {
     font-family: 'arial';
     font-size: 20px;
@@ -429,4 +434,37 @@ legend{
 .about_us {
     background: #ffffff;
     min-height: 600px;
+}
+
+.contact_us{
+    background: #ffffff;
+    min-height: 450px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contact_us img{
+    float: left;
+}
+
+.contact_us .contact_form{
+    float: left;
+    margin: 20px 0 0 50px;
+}
+
+.contact_us .contact_form form{
+    margin: 20px 0 0 0;
+}
+
+.contact_us .contact_form #contact_us table tr{
+    height: 30px;
+}
+
+.contact_us .contact_form #contact_us table tr td{
+    min-width: 100px;
+    vertical-align: top;
+}
+
+.contact_us .contact_form input[type=submit]{
+    float: right;
+    width: 100px;
 }
