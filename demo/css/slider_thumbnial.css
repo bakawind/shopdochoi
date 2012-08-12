@@ -19,10 +19,11 @@
 				height:100px;
 			}
 			#carousel-wrapper .caroufredsel_wrapper {
-				border-radius: 10px;
+				border-radius: 5px;
 				box-shadow: 0 0 5px #899;
 				height:100px;
-				border: 2px solid #899;
+
+				border: 1px solid #899;
 			}
 
 			#carousel span, #carousel img,
@@ -73,8 +74,8 @@
 				width:auto;
 				height:180px;				
 				position: relative;
-				border: 2px solid #899;
-				border-radius: 10px;
+				border: 1px solid #899;
+				border-radius: 5px;
 				box-shadow: 0 0 5px #899;
 			}
 			#thumbs a {			
