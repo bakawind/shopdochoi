@@ -75,14 +75,55 @@ legend{
     color: #9BCEDF;
 }
 
-.menu ul {
-    margin: 0 0 0 80px;
-}
-
-.menu ul li {
+.menu li {
     list-style-type: none;
     float: left;
     margin: 12px 70px 0px 0px;
+    height: 100%;
+}
+
+.menu ul {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type:none;
+}
+
+.menu li:hover {
+    position:relative;
+}
+
+.menu li:hover ul {
+    left:0px;
+    top:30px;
+    background:#22379d;
+    border:2px solid #0d1953;
+    border-radius: 0px 0px 8px 8px;
+    width:200px;
+}
+.menu li:hover ul li {
+    height:18px;
+    border:none;
+    margin:0;
+    padding:5px;
+}
+.menu li:hover ul li a {
+    height:18px;
+    padding:0px;
+    display:block;
+    font-size:0.8em;
+    width:158px;
+    line-height:18px;
+    text-indent:5px;
+    color:#fff;
+    text-decoration:none;
+    border:1px solid transparent;
+}
+.menu li:hover ul li a:hover {
+    height:18px;
+    background:silver;
+    color:#000;
+    border:solid 1px #444;
 }
 
 .space{
@@ -110,17 +151,17 @@ legend{
 }
 
 .wrapper .content .inner_content .price_search2{
-	font-size: 18px;	
+	font-size: 18px;
 	font-family: 'verdana';
 	float: right;
-	margin-right: 10px; margin-bottom:10px; 
+	margin-right: 10px; margin-bottom:10px;
 	padding-top:10px;
-	background-color: #fff;	
-	width: 280px;	
+	background-color: #fff;
+	width: 280px;
 	text-align: center;
 	height:30px;
-	
-	
+
+
 	border-radius: 5px;
     border-style: solid;
     border-width: 2px;
@@ -239,18 +280,18 @@ legend{
 	width: 400px;
 	height: 30px;
 	margin-top: 10px;
-	
+
 }
 
 .wrapper .content .inner_content .pagination a{
 	font-family: 'verdana';
 	font-size: 20px;
-	text-decoration: none; 	
+	text-decoration: none;
 	font-weight: bold;
 	color: #0d1953;
 }
-.wrapper .content .inner_content .pagination a:hover { 
-	text-decoration: underline; 
+.wrapper .content .inner_content .pagination a:hover {
+	text-decoration: underline;
 	font-weight: normal;
 }
 
@@ -260,11 +301,11 @@ legend{
 	width: 900px;
 	height: 600px;
 }
-.wrapper .content .inner_content .product_detail .detail, .pictures{	
-	
+.wrapper .content .inner_content .product_detail .detail, .pictures{
+
 	float:left;
 	width: 450px;
-	height: 600px;	
+	height: 600px;
 }
 .wrapper .content .inner_content .product_detail .detail table{
 	margin: 30px 20px 20px 50px;
@@ -275,33 +316,33 @@ legend{
 }
 .wrapper .content .inner_content .product_detail .detail td{
 	padding-top:15px;
-	padding-bottom: 15px;	
+	padding-bottom: 15px;
 }
-.wrapper .content .inner_content .product_detail .detail table .spec{	
+.wrapper .content .inner_content .product_detail .detail table .spec{
 	color:#293982 ;
 	font-size: 16px;
 	width:150px;
 }
-.wrapper .content .inner_content .product_detail .detail table .price{	
+.wrapper .content .inner_content .product_detail .detail table .price{
 	color:red;
 	font-weight: bold;
 	font-size: 20px;
 }
-.wrapper .content .inner_content .product_detail .detail table .break{	
+.wrapper .content .inner_content .product_detail .detail table .break{
 	height:20px;
 }
-.wrapper .content .inner_content .product_detail .detail h3{	
+.wrapper .content .inner_content .product_detail .detail h3{
 	font-family: 'verdana';
-	font-size: 30px;	
+	font-size: 30px;
 	font-weight: bold;
 }
 
 .wrapper .content .inner_content .product_detail .pictures{
-	background-color:#fff;	
+	background-color:#fff;
 }
 
 /* thumbnail*/
-.wrapper .content .inner_content .product_detail .pictures .main{	
+.wrapper .content .inner_content .product_detail .pictures .main{
 	float:left;
 	background-color:#000;
 	width: 100%;
@@ -432,7 +473,7 @@ legend{
 	background-repeat: no-repeat;
 	float: left;
 	margin: 0 10px 0 30px;
-	
+
 }
 
 .footer .footer_content .online_service .available{
