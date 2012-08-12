@@ -109,6 +109,25 @@ legend{
 	padding-bottom: 20px;
 }
 
+.wrapper .content .inner_content .price_search2{
+	font-size: 18px;	
+	font-family: 'verdana';
+	float: right;
+	margin-right: 10px; margin-bottom:10px; 
+	padding-top:10px;
+	background-color: #fff;	
+	width: 280px;	
+	text-align: center;
+	height:30px;
+	
+	
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #9bcedf;
+    border-color: #65acc4;
+}
+
 .wrapper .content .inner_content .box{
     float: left;
     width: 300px;
@@ -242,6 +261,7 @@ legend{
 	height: 600px;
 }
 .wrapper .content .inner_content .product_detail .detail, .pictures{	
+	
 	float:left;
 	width: 450px;
 	height: 600px;	
