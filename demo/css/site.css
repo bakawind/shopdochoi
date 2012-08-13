@@ -208,8 +208,10 @@ legend{
 }
 
 .wrapper .content .inner_content .box .product_box img{
-    float: left;
-    width: 280px;
+    float: center;
+	margin-left:auto;
+	margin-right:auto;
+    width: auto;
     height: 210px;
 }
 
